@@ -48,7 +48,7 @@ public class BMICalculator {
 	}
 	
 	//Height conversion to inches
-	static int heightToInches(int feet, int inches) {
+	public static int heightToInches(int feet, int inches) {
 		int totalInches = (feet * 12) + inches;
 		int totalInches2 = totalInches * totalInches;
 		
@@ -56,7 +56,7 @@ public class BMICalculator {
 	}
 	
 	//BMI Calculation [NOT WORKING!!!]
-	static double bmiCalc(int weight, int height) {
+	public static double bmiCalc(int weight, int height) {
 		double bmi = weight / height;
 		
 		return bmi;
