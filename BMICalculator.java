@@ -58,6 +58,7 @@ public class BMICalculator {
 	//BMI Calculation [NOT WORKING!!!]
 	static double bmiCalc(int weight, int height) {
 		double bmi = weight / height;
+		
 		return bmi;
 		
 	}
