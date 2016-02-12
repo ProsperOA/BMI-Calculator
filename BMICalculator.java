@@ -4,7 +4,7 @@ import java.util.Scanner;
  * This program calculates you BMI based on your
  * weight in pounds and height in inches.
  * 
- * @author			Obosa Osagie-Amayo
+ * @author		Obosa Osagie-Amayo
  * Source File:		BMICalculator.java
  */
 
@@ -12,7 +12,7 @@ public class BMICalculator {
 
 	static Scanner in = new Scanner(System.in);
 	static double weight, heightFeet, heightInches, heightCalc, heightTotal,
-					bmi;
+			bmi;
 
 	public static void main(String[] args) {
 		
