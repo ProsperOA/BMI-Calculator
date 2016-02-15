@@ -18,11 +18,13 @@ public class BMICalculator {
 		
 		System.out.printf("How much do you weigh?\nPounds: ");
 		weight = in.nextInt();
+		System.out.println();
 		
-		System.out.printf("\nHow tall are you?\nFeet: ");
+		System.out.printf("How tall are you?\nFeet: ");
 		heightFeet = in.nextInt();
 		System.out.print("Inches: ");
 		heightInches = in.nextInt();
+		System.out.println();
 		
 		BMICalculator.bmiCalc();
 
@@ -52,7 +54,7 @@ public class BMICalculator {
 		//BMI Calculation
 		bmi = ((weight / heightTotal) * 703);
 	
-		System.out.printf("\nYour BMI is: %.2f\n", bmi);
+		System.out.printf("Your BMI is: %.2f\n", bmi);
 		if (bmi > 18.5 && bmi < 25.0)
 			System.out.print("You have a healthy BMI!\n\n");
 		else
