@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/*
+/**
  * This program calculates you BMI based on your
  * weight in pounds and height in inches.
  * 
@@ -25,6 +25,7 @@ public class BMICalculator {
 		System.out.print("Inches: ");
 		heightInches = in.nextInt();
 		System.out.println();
+		in.close();
 		
 		BMICalculator.bmiCalc();
 
@@ -45,6 +46,11 @@ public class BMICalculator {
 
 	}
 	
+	/*
+	 * Converts height from feet and inches to total inches. Calculates BMI,
+	 * prints the BMI result, and prints whether or not the BMI is considered
+	 * healthy.
+	 */
 	static void bmiCalc() {
 		
 		//Height Conversion
