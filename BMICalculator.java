@@ -55,10 +55,10 @@ public class BMICalculator {
 		
 		//Height Conversion
 		heightCalc = heightFeet * 12 + heightInches;
-		heightTotal = heightCalc * heightCalc;
 		
 		//BMI Calculation
-		bmi = ((weight / heightTotal) * 703);
+		heightTotal = heightCalc * heightCalc;
+		bmi = (weight / heightTotal) * 703;
 	
 		System.out.printf("Your BMI is: %.2f\n", bmi);
 		if (bmi > 18.5 && bmi < 25.0)
